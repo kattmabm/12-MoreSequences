@@ -495,11 +495,11 @@ def run_test_fancy_polygon():
     #   a contrasting color for the lines makes them especially pretty.
     # ------------------------------------------------------------------
 
-    title = 'FANCY POLYGON test 4: 100 segments, hops of 65'
+    title = 'FANCY POLYGON test 4: 100 segments, hops of 60'
     window = rg.RoseWindow(510, 510, title)
-    circle = rg.Circle(rg.Point(255, 255), 250)
+    circle = rg.Circle(rg.Point(255, 240), 230)
     circle.fill_color = 'black'
-    fancy_polygon(window, circle, 100, 65, 'white', 1)
+    fancy_polygon(window, circle, 100, 60, 'white', 1)
     window.close_on_mouse_click()
 
 
